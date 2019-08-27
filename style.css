@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0000;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: inherit;
+}
+
+.container-header {
+  background-color: #202f3c;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-title {
+  display: inherit;
+  margin: auto;
+  text-align: center;
+}
+/*******  Header's section  *****************/
+.text-header {
+  display: inherit;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.logo-icon {
+  width: 55vh;
+  background-color: #202f3c;
+}
+
+.whatIs-ref {
+  display: inherit;
+  background-color: #202f3c;
+}
+
+.perform-ref {
+  display: inherit;
+  background-color: #202f3c;
+}
+
+.install-ref {
+  display: inherit;
+  background-color: #202f3c;
+}
+
+.use-ref {
+  display: inherit;
+  background-color: #202f3c;
+}
+
+.benefit-ref {
+  display: inherit;
+  background-color: #202f3c;
+}
+/*******  Header's end  *******/
+/*=========   Intro's section   =============*/
+.container-whatIs {
+    color: white;
+    background-color: black;
+}
+
+.whatIs-title {
+    margin: auto;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.whatIs-description {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-description {
+    display: inherit;
+    margin: 10%;
+    text-align: center;
+    color: white;
+}
+
+.text-description {
+    display: inherit;
+    margin: 10%;
+    text-align: center;
+    color: white;
+}
+
+.description-image {
+    width: 100%;
+}
+/*=========  End of intro's section  ===========*/
+/*=========   perform's section   =============*/
+.container-perform {
+    padding-top: 10px;
+    background-color: #ff790d;
+}
+
+.perform__title {
+    margin: auto;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.perform-description {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-types {
+    display: inherit;
+    padding: 10px 0 15px 0;
+    text-align: center;
+    color: black;
+}
+
+.description-image {
+    width: 100%;
+}
+/*=========  End of perform's section  ===========*/
+
+.container-install {
+    margin: 5%;
+}

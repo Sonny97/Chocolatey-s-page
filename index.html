@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chocolatey</title>
+  </head>
+  <body>
+    <header class="container-header">
+      <div class="logo-icon">
+        <a href="https://chocolatey.org/" target="_blank">
+          <img src="logo_square.svg" alt="about logo of Chocolatey" />
+        </a>
+      </div>
+      <div class="whatIs-ref">
+        <a class="text-header" href="#intro">
+          <p>Que es?</p>
+        </a>
+      </div>
+      <div class="perform-ref">
+        <a class="text-header" href="">
+          <p>Para que sirve</p>
+        </a>
+      </div>
+      <div class="install-ref">
+        <a class="text-header" href="">
+          <p>Como instalarlo</p>
+        </a>
+      </div>
+      <div class="use-ref">
+        <a class="text-header" href="">
+          <p>Como se usa</p>
+        </a>
+      </div>
+      <div class="benefit-ref">
+        <a class="text-header" href="">
+          <p>Beneficios</p>
+        </a>
+      </div>
+    </header>
+    <div class="container">
+      <section class="container-intro" id="intro">
+        <h1 class="perform__title main-title">
+          Hablemos un poco de chocolatey
+        </h1>
+        <div class="container-whatIs">
+          <h2 class="whatIs-title">Que es?</h2>
+          <div class="whatIs-description">
+            <p class="text-description">
+              Chocolatey es un manejador de paquetes(programas) desde la consola
+              de windows CMD o Power Shell.
+              <br />
+              La idea principal de la creacion de chocolatey fue dar el facil
+              uso de la consola para instalacion de packetes como lo hace
+              apt-get o yum en linux o centus7
+            </p>
+            <div class="description-image">
+              <img
+                src="https://chocolatey.org/content/images/integration_points.png"
+                alt="description of package dependences"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-perform">
+        <div class="container-title">
+          <h2 class="perform__title">Para que sirve</h2>
+        </div>
+        <div class="perform-types">
+          <p class="text-types">
+            Con el podemos instalar paquetes que normalmente en windows puede
+            ser un poco tediosa la instalacion mientras que con otros sistemas
+            operativos bastaba con una sola linea de codigo, y esperar a que se
+            instalara, Chocolatey esta aqui para mejorar vidas, para mejorar tu
+            vida en aras de la libertad... Abraham Linconl
+          </p>
+        </div>
+      </section>
+      <section class="container-install">
+        <div class="container-title">
+          <h2 class="install__title">Como instalarlo</h2>
+        </div>
+        <div class="install-steps">
+          la instalacion consta de: <br />
+          <li>entrar a <a href="https://chocolatey.org">Chocolatey</a></li>
+          <li>
+            Copiar el codigo
+            <b
+              >@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe"
+              -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex
+              ((New-Object
+              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))"
+              && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"</b
+            >
+          </li>
+        </div>
+      </section>
+      <section class="container-use">
+        <div class="container-title">
+          <h2 class="use__title">Como se usa...</h2>
+        </div>
+        <div class="use-steps">
+          <ul>
+            <li>
+              <img
+                src="https://lh3.googleusercontent.com/-wv2mgqeDJQA/XWRgPlP4fJI/AAAAAAAAAfw/DgTocqQxy3ofMvhJfjE4kXEpBsCT548DwCK8BGAs/s0/2019-08-26.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                src="https://lh3.googleusercontent.com/-Gg2ASojM0cU/XWRgxWNt9OI/AAAAAAAAAf8/bSJkZNvdbdQBQrq-_cd9xqPP4ynguQk_QCK8BGAs/s0/2019-08-26.png"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="container-benefit">
+        <div class="container-title">
+          <h2 class="benefit__title">Beneficios</h2>
+          <div class="benefit-steps">
+              <ul>
+                  <li>Velocidad</li>
+                  <li>Facil manejo</li>
+                  <li>Facil de entender</li>
+                  <li>Ahorra tiempo y esfuerzo</li>
+                  <li>Tiene packetes muy famosos para el uso</li>
+              </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      Para mas informacion...
+    </footer>
+  </body>
+</html>
